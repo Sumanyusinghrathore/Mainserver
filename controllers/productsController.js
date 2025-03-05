@@ -94,7 +94,6 @@ async function deleteProduct(req, res) {
 
 // Add a Product user
 async function addProduct(req, res) {
-  console.log(req.body, res.body);
   try {
     const {
       title,

@@ -148,4 +148,5 @@ async function updateUser(req, res) {
   }
 }
 
+
 module.exports = { verify, login, getAllUsers, addUser, deleteUser, updateUser };

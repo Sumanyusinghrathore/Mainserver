@@ -10,7 +10,7 @@ router.delete("/delete/:id", deleteUser);   // Delete a user
 router.post("/verify", verify);   // Verifiy a user
 router.post("/createUser", addUser);   // Create a user
 router.put("/update/:id", updateUser);      // Update an existing user
-router.get("/", getAllUsers);        // Fetch all users
+router.get("/emails", getAllUsers);        // Fetch all users
 
 // Products section starts
 router.get("/products", getAllProducts);        // Fetch all products
